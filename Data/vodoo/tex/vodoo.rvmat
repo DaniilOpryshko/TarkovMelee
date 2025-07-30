@@ -2,13 +2,13 @@ ambient[] = {1, 1, 1, 1};
 diffuse[] = {1, 1, 1, 1};
 forcedDiffuse[] = {0, 0, 0, 1};
 Emissive[] = {0, 0, 0, 1};
-specular[] = {0.25, 0.25, 0.25, 1};
-specularPower = 88;
+specular[] = {0.2, 0.2, 0.2, 1};
+specularPower = 66;
 PixelShaderID = "Super";
 VertexShaderID = "Super";
 class Stage1
 {
-	texture = "TarkovMelee\Data\katt\tex\katt_NOHQ.paa";
+	texture = "TarkovMelee\Data\vodoo\tex\vodoo_NOHQ.paa";
 	uvSource = "tex";
 	class uvTransform
 	{
@@ -44,7 +44,7 @@ class Stage3
 };
 class Stage4
 {
-	texture = "TarkovMelee\Data\katt\tex\katt_AS.paa";
+	texture = "TarkovMelee\Data\vodoo\tex\vodoo_AS.paa";
 	uvSource = "tex";
 	class uvTransform
 	{
@@ -56,7 +56,7 @@ class Stage4
 };
 class Stage5
 {
-	texture = "TarkovMelee\Data\katt\tex\katt_SMDI.paa";
+	texture = "TarkovMelee\Data\vodoo\tex\vodoo_SMDI.paa";
 	uvSource = "tex";
 	class uvTransform
 	{
